@@ -7,7 +7,7 @@ import getProductsInCategory from './queries/products.graphql.js';
 
 import './styles.css';
 
-const configFile = 'https://main--citisignal-one--adobedevxsc.aem.live/configs.json';
+const configFile = 'https://main--securbank-loyalty--znikolovski.aem.live/configs.json';
 const defaultConfig = 'prod';
 
 /**

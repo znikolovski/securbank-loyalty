@@ -1,19 +1,19 @@
 {
     "mappings": [
-      "/content/citisignal-one/:/",
-      "/content/citisignal-one/configuration:/.helix/config.json",
-      "/content/citisignal-one/metadata:/metadata.json",
-      "/content/citisignal-one/configs:/configs.json",
-      "/content/citisignal-one/configs-stage:/configs-stage.json",
-      "/content/citisignal-one/configs-dev:/configs-dev.json",
-      "/content/citisignal-one/redirects:/redirects.json",
-      "/content/citisignal-one/placeholders:/placeholders.json",
-      "/content/citisignal-one/products/recommended-products:/products/recommended-products.json",
-      "/content/citisignal-one/enrichment/enrichment:/enrichment/enrichment.json",
-      "/content/dam/citisignal/images/products/:/images/products/"
+      "/content/securbank-loyalty/:/",
+      "/content/securbank-loyalty/configuration:/.helix/config.json",
+      "/content/securbank-loyalty/metadata:/metadata.json",
+      "/content/securbank-loyalty/configs:/configs.json",
+      "/content/securbank-loyalty/configs-stage:/configs-stage.json",
+      "/content/securbank-loyalty/configs-dev:/configs-dev.json",
+      "/content/securbank-loyalty/redirects:/redirects.json",
+      "/content/securbank-loyalty/placeholders:/placeholders.json",
+      "/content/securbank-loyalty/products/recommended-products:/products/recommended-products.json",
+      "/content/securbank-loyalty/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/dam/securbank-loyalty/images/products/:/images/products/"
     ],
     "includes": [
-      "/content/citisignal-one",
-      "/content/dam/citisignal/images/products/"
+      "/content/securbank-loyalty",
+      "/content/dam/securbank-loyalty/images/products/"
     ]
 }

@@ -188,7 +188,7 @@
                 "template": {
                   "model": "columns-promo",
                   "name": "Promo",
-                  "gridPromo_image": "/content/dam/citisignal/product-enrichment-1.png",
+                  "gridPromo_image": "/content/dam/securbank-loyalty/product-enrichment-1.png",
                   "gridPromo_description": "Placeholder Description",
                   "classes": "promo-layout"
                 }
@@ -565,7 +565,7 @@
                 "template": {
                   "model": "columnsjo-promo",
                   "name": "Promo",
-                  "gridPromo_image": "/content/dam/citisignal/product-enrichment-1.png",
+                  "gridPromo_image": "/content/dam/securbank-loyalty/product-enrichment-1.png",
                   "gridPromo_description": "Placeholder Description",
                   "classes": "promo-layout"
                 }
