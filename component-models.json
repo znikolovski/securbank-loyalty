@@ -647,7 +647,7 @@
       {
         "component": "product_picker",
         "name": "sku",
-        "label": "Alt Text",
+        "label": "Product SKU",
         "valueType": "string"
       }
     ]
