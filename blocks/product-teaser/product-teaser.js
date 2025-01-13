@@ -146,7 +146,28 @@ function renderProduct(product, config, block) {
 }
 
 export default async function decorate(block) {
-  const config = readBlockConfig(block);
+  const config = {};
+  // const config = readBlockConfig(block);
+  block.querySelectorAll(':scope > div').forEach((row) => {
+    if (row.children) {
+      const cols = [...row.children];
+      if(cols[0]) {
+        const col = cols[0];
+        if (col.querySelector('p')) {
+          const name = 'sku';
+          let value = '';
+          const ps = [...col.querySelectorAll('p')];
+          if (ps.length === 1) {
+            value = ps[0].textContent;
+          } else {
+            value = ps.map((p) => p.textContent);
+          }
+
+          config[name] = value;
+        }
+      }
+    }
+  });
   config['details-button'] = !!(config['details-button'] || config['details-button'] === 'true');
   config['cart-button'] = !!(config['cart-button'] || config['cart-button'] === 'true');
 
