@@ -4,14 +4,14 @@
       "/content/securbank-loyalty/configuration:/.helix/config.json",
       "/content/securbank-loyalty/metadata:/metadata.json",
       "/content/securbank-loyalty/configs:/configs.json",
-      "/content/securbank-loyalty/headers:/headers.json",
       "/content/securbank-loyalty/configs-stage:/configs-stage.json",
       "/content/securbank-loyalty/configs-dev:/configs-dev.json",
       "/content/securbank-loyalty/redirects:/redirects.json",
       "/content/securbank-loyalty/placeholders:/placeholders.json",
       "/content/securbank-loyalty/products/recommended-products:/products/recommended-products.json",
       "/content/securbank-loyalty/enrichment/enrichment:/enrichment/enrichment.json",
-      "/content/dam/securbank-loyalty/images/products/:/images/products/"
+      "/content/dam/securbank-loyalty/images/products/:/images/products/",
+      "/content/securbank-loyalty/headers:/.helix/headers.json"
     ],
     "includes": [
       "/content/securbank-loyalty",
