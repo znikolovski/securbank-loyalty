@@ -645,7 +645,7 @@
     "id": "product-teaser",
     "fields": [
       {
-        "component": "sku",
+        "component": "product_picker",
         "name": "sku",
         "label": "Alt Text",
         "valueType": "string"
